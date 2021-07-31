@@ -1,6 +1,7 @@
 import React from "react"
 
-export default function WelcomePage() {
+export default function WelcomePage(props) {
+// props.ForcastDays???
 const [forecastDays, setForecastDays] = React.useState(3)
 
 const selections = [
@@ -17,7 +18,9 @@ const forecastButtons = selections.map((item) => (
     </button>
 ))
     const layout =(
-        <div>
+        <div style = {{
+            backgroundColor: "silver"
+            }} >
             <h2>Offical OKCoders Weather Forecast App</h2>
             {forecastButtons}
             <p>{forecastDays}</p>
