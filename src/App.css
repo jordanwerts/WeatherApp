@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.box {
+  border: solid 2px black;
+  height: 15em;
+  width: 25%;
+  margin: 0.5em;
+}
+
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-content: center;
+}

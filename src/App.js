@@ -13,7 +13,6 @@ function App() {
     <div className="App">
       <p> working </p>
       <WelcomePage setForecastDays ={setForecastDays} />
-      <ForecastPage/>
     </div>
   );
 }
